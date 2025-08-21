@@ -58,7 +58,7 @@
             ]
         },
         "delete": {
-            "FunctionName": "print_and_delete",
+            "FunctionName": "delete",
             "FaaSServer": "My_OW_Account",
             "Type": "Python",
             "Arguments": {
