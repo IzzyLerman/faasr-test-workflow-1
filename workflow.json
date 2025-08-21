@@ -78,10 +78,10 @@
         }
     },
     "ActionContainers": {
-        "r_func_new": "docker.io/izzylerman/openwhisk-r:0.1",
-        "add_operation": "docker.io/izzylerman/openwhisk:0.1",
-        "log": "docker.io/izzylerman/openwhisk:0.1",
-        "folders": "docker.io/izzylerman/openwhisk:0.1"
+        "r_func_new": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-r:latest",
+        "add_operation": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-python:latest",
+        "delete": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-python:latest",
+        "folders": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-python:latest"
     },
     "FunctionCRANPackage": {
         "r_log": [
