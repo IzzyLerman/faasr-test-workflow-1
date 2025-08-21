@@ -34,7 +34,7 @@
     "ActionList": {
         "add_operation": {
             "FunctionName": "add_rpc",
-            "FaaSServer": "My_Lambda_Account",
+            "FaaSServer": "My_OW_Account",
             "Type": "Python",
             "Arguments": {
                 "folder": "testadd",
@@ -48,7 +48,7 @@
         },
         "r_func_new": {
             "FunctionName": "r_log",
-            "FaaSServer": "My_Lambda_Account",
+            "FaaSServer": "My_OW_Account",
             "Type": "R",
             "Arguments": {
                 "message": "testing testing testing"
@@ -59,7 +59,7 @@
         },
         "delete": {
             "FunctionName": "print_and_delete",
-            "FaaSServer": "My_Lambda_Account",
+            "FaaSServer": "My_OW_Account",
             "Type": "Python",
             "Arguments": {
                 "folder": "testadd",
@@ -71,17 +71,17 @@
         },
         "folders": {
             "FunctionName": "test_list_folders",
-            "FaaSServer": "My_Lambda_Account",
+            "FaaSServer": "My_OW_Account",
             "Type": "Python",
             "Arguments": {},
             "InvokeNext": []
         }
     },
     "ActionContainers": {
-        "r_func_new": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-r:dev",
-        "add_operation": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-python:dev",
-        "delete": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-python:dev",
-        "folders": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-python:dev"
+        "r_func_new": "docker.io/izzylerman/openwhisk-r:0.1",
+        "add_operation": "docker.io/izzylerman/openwhisk:0.1",
+        "delete": "docker.io/izzylerman/openwhisk:0.1",
+        "folders": "docker.io/izzylerman/openwhisk:0.1"
     },
     "FunctionCRANPackage": {
         "r_log": [
