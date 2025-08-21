@@ -34,7 +34,7 @@
     "ActionList": {
         "add_operation": {
             "FunctionName": "add_rpc",
-            "FaaSServer": "My_OW_Account",
+            "FaaSServer": "My_Lambda_Account",
             "Type": "Python",
             "Arguments": {
                 "folder": "testadd",
@@ -48,7 +48,7 @@
         },
         "r_func_new": {
             "FunctionName": "r_log",
-            "FaaSServer": "My_OW_Account",
+            "FaaSServer": "My_Lambda_Account",
             "Type": "R",
             "Arguments": {
                 "message": "testing testing testing"
@@ -59,7 +59,7 @@
         },
         "delete": {
             "FunctionName": "delete",
-            "FaaSServer": "My_OW_Account",
+            "FaaSServer": "My_Lambda_Account",
             "Type": "Python",
             "Arguments": {
                 "folder": "testadd",
@@ -71,7 +71,7 @@
         },
         "folders": {
             "FunctionName": "test_list_folders",
-            "FaaSServer": "My_OW_Account",
+            "FaaSServer": "My_Lambda_Account",
             "Type": "Python",
             "Arguments": {},
             "InvokeNext": []
