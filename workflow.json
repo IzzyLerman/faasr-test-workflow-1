@@ -58,7 +58,7 @@
             ]
         },
         "delete": {
-            "FunctionName": "delete",
+            "FunctionName": "print_and_delete",
             "FaaSServer": "My_Lambda_Account",
             "Type": "Python",
             "Arguments": {
@@ -99,10 +99,10 @@
         ]
     },
     "FunctionGitRepo": {
-        "add_rpc": "nolcut/test-py",
-        "r_log": "nolcut/test-py",
-        "delete": "nolcut/test-py",
-        "test_list_folders": "nolcut/test-py"
+        "add_rpc": "izzylerman/test-py",
+        "r_log": "izzylerman/test-py",
+        "print_and_delete": "izzylerman/test-py",
+        "test_list_folders": "izzylerman/test-py"
     },
     "FunctionInvoke": "add_operation",
     "InvocationID": "",
