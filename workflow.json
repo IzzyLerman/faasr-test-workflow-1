@@ -79,10 +79,10 @@
         }
     },
     "ActionContainers": {
-        "r_func_new": "docker.io/izzylerman/openwhisk-r:0.4",
-        "add_operation": "docker.io/izzylerman/openwhisk:0.4",
-        "delete": "docker.io/izzylerman/openwhisk:0.4",
-        "folders": "docker.io/izzylerman/openwhisk:0.4"
+        "r_func_new": "docker.io/izzylerman/openwhisk-r:1.5",
+        "add_operation": "docker.io/izzylerman/openwhisk:1.5",
+        "delete": "docker.io/izzylerman/openwhisk:1.5",
+        "folders": "docker.io/izzylerman/openwhisk:1.5"
     },
     "FunctionCRANPackage": {
         "r_log": [
