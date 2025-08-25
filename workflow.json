@@ -17,6 +17,7 @@
           "My_OW_Account": {
             "FaaSType": "OpenWhisk",
             "Namespace": "guest",
+            "SSL": "False",
             "Endpoint": "ow.faasr.io:31002",
             "API.key": "My_OW_Account_API_KEY"
 
@@ -78,10 +79,10 @@
         }
     },
     "ActionContainers": {
-        "r_func_new": "docker.io/izzylerman/openwhisk-r:0.1",
-        "add_operation": "docker.io/izzylerman/openwhisk:0.1",
-        "delete": "docker.io/izzylerman/openwhisk:0.1",
-        "folders": "docker.io/izzylerman/openwhisk:0.1"
+        "r_func_new": "docker.io/izzylerman/openwhisk-r:0.3",
+        "add_operation": "docker.io/izzylerman/openwhisk:0.3",
+        "delete": "docker.io/izzylerman/openwhisk:0.3",
+        "folders": "docker.io/izzylerman/openwhisk:0.3"
     },
     "FunctionCRANPackage": {
         "r_log": [
