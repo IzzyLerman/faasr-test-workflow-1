@@ -17,7 +17,7 @@
           "My_OW_Account": {
             "FaaSType": "OpenWhisk",
             "Namespace": "guest",
-            "AllowSelfSignedCertificate": "true",
+            "AllowSelfSignedCertificate": true,
             "Endpoint": "ow.faasr.io:31002",
             "API.key": "My_OW_Account_API_KEY"
 
